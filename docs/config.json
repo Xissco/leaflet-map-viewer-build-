@@ -1,0 +1,29 @@
+{
+    "map1": {
+      "center": [-1.831239, -78.183406],
+      "zoom": 6,
+      "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
+      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021"],
+      "styleName": "denpo_style"
+    },
+    "map2": {
+      "center": [-1.831239, -78.183406],
+      "zoom": 6,
+      "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
+      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021"],
+      "styleName": "denpo_style"
+    },
+    "legend": {
+      "variables": [
+        { "label": "Tipo de Administración", "value": "tpsis_style" },
+        { "label": "Generación diaria de residuos", "value": "gener_style" },        
+        { "label": "Cantidad recolectada", "value": "ctger_style" },
+        { "label": "Clasificación en la fuente", "value": "clfnt_style" },
+        { "label": "Densidad Poblacional", "value": "denpo_style" },
+        { "label": "Generación percápita diaria", "value": "ppc_style" },
+        { "label": "Recolección diferenciada", "value": "rcdif_style" },
+        { "label": "Cobranza", "value": "cobro_style" }
+      ]
+    }
+  }
+  
