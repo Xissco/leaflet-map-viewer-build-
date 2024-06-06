@@ -1,4 +1,8 @@
 {
+    "navbar": {
+      "url": "https://comunidadsostenible.ucacue.edu.ec/atlas/datos-historicos/",
+      "label": "GIRS - Gestión Integral de Residuos Sólidos"
+    },    
     "map1": {
       "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
       "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021"],
