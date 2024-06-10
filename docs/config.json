@@ -15,14 +15,14 @@
     },
     "legend": {
       "variables": [
-        { "label": "Tipo de Administración", "value": "tpsis_style" },
-        { "label": "Generación diaria de residuos", "value": "gener_style" },        
-        { "label": "Cantidad recolectada", "value": "ctger_style" },
-        { "label": "Clasificación en la fuente", "value": "clfnt_style" },
-        { "label": "Densidad Poblacional", "value": "denpo_style" },
-        { "label": "Generación percápita diaria", "value": "ppc_style" },
-        { "label": "Recolección diferenciada", "value": "rcdif_style" },
-        { "label": "Cobranza", "value": "cobro_style" }
+        { "label": "Tipo de Administración", "style": "tpsis_style", "variable": "tpsis" },
+        { "label": "Generación diaria de residuos", "style": "gener_style", "variable": "gener" },
+        { "label": "Cantidad recolectada", "style": "ctger_style", "variable": "ctger" },
+        { "label": "Clasificación en la fuente", "style": "clfnt_style", "variable": "clfnt" },
+        { "label": "Densidad Poblacional", "style": "denpo_style", "variable": "denpo" },
+        { "label": "Generación percápita diaria", "style": "ppc_style", "variable": "ppc" },
+        { "label": "Recolección diferenciada", "style": "rcdif_style", "variable": "rcdif" },
+        { "label": "Cobranza", "style": "cobro_style", "variable": "cobro" }
       ]
     }
   }
