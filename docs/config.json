@@ -13,17 +13,59 @@
       "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021"],
       "styleName": "denpo_style"
     },
-    "legend": {
-      "variables": [
-        { "label": "Tipo de Administración", "style": "tpsis_style", "variable": "tpsis" },
-        { "label": "Generación diaria de residuos", "style": "gener_style", "variable": "gener" },
-        { "label": "Cantidad recolectada", "style": "ctger_style", "variable": "ctger" },
-        { "label": "Clasificación en la fuente", "style": "clfnt_style", "variable": "clfnt" },
-        { "label": "Densidad Poblacional", "style": "denpo_style", "variable": "denpo" },
-        { "label": "Generación percápita diaria", "style": "ppc_style", "variable": "ppc" },
-        { "label": "Recolección diferenciada", "style": "rcdif_style", "variable": "rcdif" },
-        { "label": "Cobranza", "style": "cobro_style", "variable": "cobro" }
-      ]
+    "variables":{
+      "tipo_administracion": {
+        "label": "Tipo de Administración",
+        "variable": "tpsis",
+        "type": "string",
+        "style": "tpsis_style"
+      },
+      "generacion_diaria_residuos": {
+        "label": "Generación diaria de residuos",
+        "variable": "gener",
+        "type": "numeric",
+        "style": "gener_style",
+        "unit": "kg/dia"       
+      },
+      "cantidad_recolectada": {
+        "label": "Cantidad recolectada",
+        "variable": "ctrec",
+        "type": "numeric",
+        "style": "ctrec_style",
+        "unit": "t/dia" 
+      },
+      "clasificacion_fuente": {
+        "label": "Clasificación en la fuente",
+        "variable": "clfnt",
+        "type": "string",
+        "style": "clfnt_style"
+      },
+      "densidad_poblacional": {
+        "label": "Densidad Poblacional",
+        "variable": "denpo",
+        "type": "numeric",
+        "style": "denpo_style",
+        "unit": "hab/m2" 
+      },
+      "generacion_percapita_diaria": {
+        "label": "Generación percápita diaria",
+        "variable": "ppc",
+        "type": "numeric",
+        "style": "ppc_style",
+        "unit": "kg/hab/dia" 
+      },
+      "recoleccion_diferenciada": {
+        "label": "Recolección diferenciada",
+        "variable": "rcdif",
+        "type": "string",
+        "style": "rcdif_style"
+      },
+      "cobranza": {
+        "label": "Cobranza",
+        "variable": "cobro",
+        "type": "string",
+        "style": "cobro_style"
+      }  
     }
   }
   
