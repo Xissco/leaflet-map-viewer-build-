@@ -36,9 +36,9 @@
       },
       "clasificacion_fuente": {
         "label": "Clasificación en la fuente",
-        "variable": "clfnt",
+        "variable": "cf1sn",
         "type": "string",
-        "style": "clfnt_style"
+        "style": "cf1sn_style"
       },
       "densidad_poblacional": {
         "label": "Densidad Poblacional",
@@ -56,13 +56,13 @@
       },
       "recoleccion_diferenciada": {
         "label": "Recolección diferenciada",
-        "variable": "rcdif",
+        "variable": "rdsn",
         "type": "string",
         "style": "rcdif_style"
       },
       "cobranza": {
         "label": "Cobranza",
-        "variable": "cobro",
+        "variable": "cobsn",
         "type": "string",
         "style": "cobro_style"
       }  
