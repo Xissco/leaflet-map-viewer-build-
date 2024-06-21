@@ -1,25 +1,124 @@
 {
+    "navbar": {
+      "url": "https://comunidadsostenible.ucacue.edu.ec/atlas/datos-historicos/",
+      "label": "GIRS - Gestión Integral de Residuos Sólidos"
+    },    
     "map1": {
       "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
-      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021"],
+      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021", "INEC_2022"],
       "styleName": "denpo_style"
     },
     "map2": {
       "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
-      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021"],
+      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021", "INEC_2022"],
       "styleName": "denpo_style"
     },
-    "legend": {
-      "variables": [
-        { "label": "Tipo de Administración", "value": "tpsis_style" },
-        { "label": "Generación diaria de residuos", "value": "gener_style" },        
-        { "label": "Cantidad recolectada", "value": "ctger_style" },
-        { "label": "Clasificación en la fuente", "value": "clfnt_style" },
-        { "label": "Densidad Poblacional", "value": "denpo_style" },
-        { "label": "Generación percápita diaria", "value": "ppc_style" },
-        { "label": "Recolección diferenciada", "value": "rcdif_style" },
-        { "label": "Cobranza", "value": "cobro_style" }
-      ]
+    "variables":{
+      "tipo_administracion": {
+        "label": "Tipo de Administración",
+        "variable": "tpsis",
+        "type": "string",
+        "style": "tpsis_style"
+      },
+      "generacion_diaria_residuos": {
+        "label": "Generación diaria de residuos",
+        "variable": "gener",
+        "type": "numeric",
+        "style": "gener_style",
+        "unit": "kg/dia"       
+      },
+      "cantidad_recolectada": {
+        "label": "Cantidad recolectada",
+        "variable": "ctrec",
+        "type": "numeric",
+        "style": "ctrec_style",
+        "unit": "t/dia" 
+      },
+      "clasificacion_fuente": {
+        "label": "Clasificación en la fuente",
+        "variable": "cf1sn",
+        "type": "string",
+        "style": "cf1sn_style"
+      },
+      "densidad_poblacional": {
+        "label": "Densidad Poblacional",
+        "variable": "denpo",
+        "type": "numeric",
+        "style": "denpo_style",
+        "unit": "hab/m2" 
+      },
+      "generacion_percapita_diaria": {
+        "label": "Generación percápita diaria",
+        "variable": "ppc",
+        "type": "numeric",
+        "style": "ppc_style",
+        "unit": "kg/hab/dia" 
+      },
+      "recoleccion_diferenciada": {
+        "label": "Recolección diferenciada",
+        "variable": "rdsn",
+        "type": "string",
+        "style": "rdsn_style"
+      },
+      "cobranza": {
+        "label": "Cobranza",
+        "variable": "cobsn",
+        "type": "string",
+        "style": "cobsn_style"
+      },
+      "poblacion_proyectada": {
+        "label": "Población Proyectada",
+        "variable": "pob",
+        "type": "numeric",
+        "style": "pob_style",
+        "unit": "hab" 
+      },
+      "poblacion_declarada": {
+        "label": "Población Urbana Declarada",
+        "variable": "pobfor",
+        "type": "numeric",
+        "style": "pobfor_style",
+        "unit": "hab"
+      },
+      "residuos_organicos": {
+        "label": "Caracterización de Residuos Orgánicos",
+        "variable": "org",
+        "type": "numeric",
+        "style": "org_style",
+        "unit": "%"
+      },
+      "residuos_inorganicos": {
+        "label": "Caracterización de Residuos Inorgánicos",
+        "variable": "inor",
+        "type": "numeric",
+        "style": "inor_style",
+        "unit": "%"
+      },
+      "generacion_declarada": {
+        "label": "Generación de Residuos Declarada",
+        "variable": "genfor",
+        "type": "numeric",
+        "style": "genfor_style",
+        "unit": "kg/dia"
+      },
+      "ordenanza": {
+        "label": "Ordenanza para la Gestión de Residuos",
+        "variable": "orrsn",
+        "type": "string",
+        "style": "orrsn_style"
+      },
+      "reglamento_cobro": {
+        "label": "Reglamento para el Cobro de la GIRS",
+        "variable": "rcosn",
+        "type": "string",
+        "style": "rcosn_style"
+      },
+      "tipo_disposicion": {
+        "label": "Tipo de Disposición Final Utilizado",
+        "variable": "dftsi",
+        "type": "string",
+        "style": "dftsi_style"
+      }
     }
   }
   
