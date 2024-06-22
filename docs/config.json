@@ -21,7 +21,7 @@
         "style": "tpsis_style"
       },
       "generacion_diaria_residuos": {
-        "label": "Generación diaria de residuos",
+        "label": "Generación diaria de residuos calculada",
         "variable": "gener",
         "type": "numeric",
         "style": "gener_style",
@@ -45,7 +45,7 @@
         "variable": "denpo",
         "type": "numeric",
         "style": "denpo_style",
-        "unit": "hab/m2" 
+        "unit": "hab/km²" 
       },
       "generacion_percapita_diaria": {
         "label": "Generación percápita diaria",
@@ -56,7 +56,7 @@
       },
       "recoleccion_diferenciada": {
         "label": "Recolección diferenciada",
-        "variable": "rdsn",
+        "variable": "rdobs",
         "type": "string",
         "style": "rdsn_style"
       },
@@ -118,6 +118,12 @@
         "variable": "dftsi",
         "type": "string",
         "style": "dftsi_style"
+      },
+      "modo_cobranza": {
+        "label": "Modo de Cobranza",
+        "variable": "recos",
+        "type": "string",
+        "style": "recos_style"
       }
     }
   }
