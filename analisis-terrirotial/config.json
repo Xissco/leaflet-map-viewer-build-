@@ -1,0 +1,176 @@
+{
+    "navbar": {
+      "url": "https://comunidadsostenible.ucacue.edu.ec/atlas/datos-historicos/",
+      "label": "Analisis Territorial"
+    },    
+    "map": {
+      "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
+      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021", "INEC_2022"],
+      "styleName": "denpo_style"
+    },
+    "variables": {
+      "snap2017": {
+        "label": "Sistema Nacional de Áreas Protegidas",
+        "variable": "snap",
+        "type": "string",
+        "style": "default"
+      },
+      "BVP_2018-06-15": {
+        "label": "Bosques y Vegetación Protectora",
+        "variable": "bvp_2018_06_15",
+        "type": "string",
+        "style": "default"
+      },
+      "COBERTURA_VEGETAL_1990": {
+        "label": "Uso y Cobertura del Suelo 1990",
+        "variable": "cobertura_vegetal_1990",
+        "type": "string",
+        "style": "default"
+      },
+      "cobertura_vegetal_2000": {
+        "label": "Uso y Cobertura del Suelo 2000",
+        "variable": "cobertura_vegetal_2000",
+        "type": "string",
+        "style": "default"
+      },
+      "cobertura_vegetal_2008": {
+        "label": "Uso y Cobertura del Suelo 2008",
+        "variable": "cobertura_vegetal_2008",
+        "type": "string",
+        "style": "default"
+      },
+      "coberturas": {
+        "label": "Uso y Cobertura del Suelo 2015",
+        "variable": "coberturas",
+        "type": "string",
+        "style": "default"
+      },
+      "1_tc_00": {
+        "label": "Pisos Climaticos",
+        "variable": "pisos_climaticos",
+        "type": "string",
+        "style": "default"
+      },
+      "ORGANIZACION TERRITORIAL PARROQUIAL": {
+        "label": "Organización territorial Parroquial",
+        "variable": "organizacion_territorial_parroquial",
+        "type": "string",
+        "style": "default"
+      },
+      "1_geomorfologia_nuevo": {
+        "label": "Tipos de suelo",
+        "variable": "tipos_de_suelo",
+        "type": "string",
+        "style": "default"
+      },
+      "Geopedologiasigtierra": {
+        "label": "Geopodología del suelo",
+        "variable": "geopodología_del_suelo",
+        "type": "string",
+        "style": "default"
+      },
+      "Sectores_censales_info": {
+        "label": "Sectores Censales",
+        "variable": "sectores_censales",
+        "type": "string",
+        "style": "default"
+      },
+      "1_PELIGRO VOLCANICO_2011": {
+        "label": "Peligros volcánicos",
+        "variable": "peligros_volcánicos",
+        "type": "string",
+        "style": "default"
+      },
+      "1_ECOSISTEMAS_DEL_ECUADOR_CONTINENTAL": {
+        "label": "Ecosistemas",
+        "variable": "ecosistemas",
+        "type": "string",
+        "style": "default"
+      },
+      "1_PISOS_BIOCLIMATICOS": {
+        "label": "Pisos Bioclimáticos",
+        "variable": "pisos_bioclimáticos",
+        "type": "string",
+        "style": "default"
+      },
+      "1_Inundaciones": {
+        "label": "Susceptibilidad a Inundaciones",
+        "variable": "susceptibilidad_a_inundaciones",
+        "type": "string",
+        "style": "default"
+      },
+      "1_zona_urbana_a": {
+        "label": "Zonas Urbanas",
+        "variable": "zonas_urbanas",
+        "type": "string",
+        "style": "default"
+      },
+      "1_DB_MOVIMIENTO_MASA": {
+        "label": "Susceptibilidad de movimeinto de masas",
+        "variable": "susceptibilidad_de_movimeinto_de_masas",
+        "type": "string",
+        "style": "default"
+      },
+      "curva_nivel_l": {
+        "label": "Curvas de nivel",
+        "variable": "curvas_de_nivel",
+        "type": "string",
+        "style": "default"
+      },
+      "via_l": {
+        "label": "via_l",
+        "variable": "via_l",
+        "type": "string",
+        "style": "default"
+      },
+      "vias": {
+        "label": "vias",
+        "variable": "vias",
+        "type": "string",
+        "style": "default"
+      },
+      "rio_torrente": {
+        "label": "rio_torrente",
+        "variable": "rio_torrente",
+        "type": "string",
+        "style": "default"
+      },
+      "rio_l": {
+        "label": "rio_l",
+        "variable": "rio_l",
+        "type": "string",
+        "style": "default"
+      },
+      "mina_p": {
+        "label": "Concesiones Mineras",
+        "variable": "concesiones_mineras",
+        "type": "string",
+        "style": "default"
+      },
+      "AL_CENTRO_EDUCATIVO": {
+        "label": "Centros Educativos",
+        "variable": "centros_educativos",
+        "type": "string",
+        "style": "default"
+      },
+      "AL_CENTRO_SALUD": {
+        "label": "Centros de Salud",
+        "variable": "centros_de_salud",
+        "type": "string",
+        "style": "default"
+      },
+      "poblado_p": {
+        "label": "Asentamientos poblacionales",
+        "variable": "asentamientos_poblacionales",
+        "type": "string",
+        "style": "default"
+      },
+      "aeropuerto_p": {
+        "label": "Aeropuertos",
+        "variable": "aeropuertos",
+        "type": "string",
+        "style": "default"
+      }
+    }
+  }
+  
