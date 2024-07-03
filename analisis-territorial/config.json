@@ -1,12 +1,10 @@
 {
     "navbar": {
       "url": "https://comunidadsostenible.ucacue.edu.ec/atlas/datos-historicos/",
-      "label": "Analisis Territorial"
+      "label": "Análisis Territorial"
     },    
     "map": {
-      "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms",
-      "layerNames": ["INEC_2014", "INEC_2015", "INEC_2016", "INEC_2017", "INEC_2018", "INEC_2019", "INEC_2020", "INEC_2021", "INEC_2022"],
-      "styleName": "denpo_style"
+      "geoserverUrl": "https://gis.comunidadsostenible.ucacue.edu.ec/geoserver/wms"
     },
     "variables": {
       "snap2017": {
@@ -18,6 +16,12 @@
       "BVP_2018-06-15": {
         "label": "Bosques y Vegetación Protectora",
         "variable": "bvp_2018_06_15",
+        "type": "string",
+        "style": "default"
+      },
+      "v_hc005": {
+        "label": "Programa Socio Bosque",
+        "variable": "socio_bosque",
         "type": "string",
         "style": "default"
       },
