@@ -9,170 +9,210 @@
     "variables": {
       "snap2017": {
         "label": "Sistema Nacional de Áreas Protegidas",
-        "variable": "snap",
-        "type": "string",
-        "style": "default"
+        "layer": "snap",
+        "layerType": "geometry",
+        "variable": "nombre",
+        "variableType": "string",
+        "style": "snap_style"
       },
       "BVP_2018-06-15": {
         "label": "Bosques y Vegetación Protectora",
-        "variable": "bvp_2018_06_15",
-        "type": "string",
-        "style": "default"
+        "layer": "bvp_2018_06_15",
+        "layerType": "geometry",
+        "variable": "nombre",
+        "variableType": "string",
+        "style": "bvp_style"
       },
       "v_hc005": {
         "label": "Programa Socio Bosque",
-        "variable": "socio_bosque",
-        "type": "string",
-        "style": "default"
+        "layer": "socio_bosque",
+        "layerType": "geometry",
+        "variable": "nam",
+        "variableType": "string",
+        "style": "socio_bosque_style"
       },
       "COBERTURA_VEGETAL_1990": {
         "label": "Uso y Cobertura del Suelo 1990",
-        "variable": "cobertura_vegetal_1990",
-        "type": "string",
-        "style": "default"
+        "layer": "cobertura_vegetal_1990",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "cobertura_1990_style"
       },
       "cobertura_vegetal_2000": {
         "label": "Uso y Cobertura del Suelo 2000",
-        "variable": "cobertura_vegetal_2000",
-        "type": "string",
-        "style": "default"
+        "layer": "cobertura_vegetal_2000",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "cobertura_2000_style"
       },
       "cobertura_vegetal_2008": {
         "label": "Uso y Cobertura del Suelo 2008",
-        "variable": "cobertura_vegetal_2008",
-        "type": "string",
-        "style": "default"
+        "layer": "cobertura_vegetal_2008",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "cobertura_2008_style"
       },
       "coberturas": {
         "label": "Uso y Cobertura del Suelo 2015",
-        "variable": "coberturas",
-        "type": "string",
+        "layer": "coberturas",
+        "layerType": "geometry",
+        "variableType": "string",
         "style": "default"
       },
       "1_tc_00": {
         "label": "Pisos Climaticos",
-        "variable": "pisos_climaticos",
-        "type": "string",
-        "style": "default"
+        "layer": "pisos_climaticos",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "piso_climatico_style"
       },
       "ORGANIZACION TERRITORIAL PARROQUIAL": {
         "label": "Organización territorial Parroquial",
-        "variable": "organizacion_territorial_parroquial",
-        "type": "string",
-        "style": "default"
+        "layer": "organizacion_territorial_parroquial",
+        "layerType": "geometry",
+        "variable": "dpa_despar",
+        "variableType": "string",
+        "style": "organizacion_parroquial_style"
       },
       "1_geomorfologia_nuevo": {
         "label": "Tipos de suelo",
-        "variable": "tipos_de_suelo",
-        "type": "string",
-        "style": "default"
+        "layer": "tipos_de_suelo",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "tipos_suelo_style"
       },
       "Geopedologiasigtierra": {
         "label": "Geopodología del suelo",
-        "variable": "geopodología_del_suelo",
-        "type": "string",
-        "style": "default"
+        "layer": "geopodología_del_suelo",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "geopodologia_style"
       },
       "Sectores_censales_info": {
         "label": "Sectores Censales",
-        "variable": "sectores_censales",
-        "type": "string",
+        "layer": "sectores_censales",
+        "layerType": "geometry",
+        "variableType": "string",
         "style": "default"
       },
       "1_PELIGRO VOLCANICO_2011": {
         "label": "Peligros volcánicos",
-        "variable": "peligros_volcánicos",
-        "type": "string",
-        "style": "default"
+        "layer": "peligros_volcánicos",
+        "layerType": "geometry",
+        "variable": "nombre",
+        "variableType": "string",
+        "style": "volcanicos_style"
       },
       "1_ECOSISTEMAS_DEL_ECUADOR_CONTINENTAL": {
         "label": "Ecosistemas",
-        "variable": "ecosistemas",
-        "type": "string",
-        "style": "default"
+        "layer": "ecosistemas",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "ecosistemas_style"
       },
       "1_PISOS_BIOCLIMATICOS": {
         "label": "Pisos Bioclimáticos",
-        "variable": "pisos_bioclimáticos",
-        "type": "string",
-        "style": "default"
+        "layer": "pisos_bioclimáticos",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "pisos_bio_style"
       },
       "1_Inundaciones": {
         "label": "Susceptibilidad a Inundaciones",
-        "variable": "susceptibilidad_a_inundaciones",
-        "type": "string",
-        "style": "default"
+        "layer": "susceptibilidad_a_inundaciones",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "inundaciones_style"
       },
       "1_zona_urbana_a": {
         "label": "Zonas Urbanas",
-        "variable": "zonas_urbanas",
-        "type": "string",
-        "style": "default"
+        "layer": "zonas_urbanas",
+        "layerType": "geometry",
+        "variable": "nam",
+        "variableType": "string",
+        "style": "zonas_urbanas_style"
       },
       "1_DB_MOVIMIENTO_MASA": {
         "label": "Susceptibilidad de movimeinto de masas",
-        "variable": "susceptibilidad_de_movimeinto_de_masas",
-        "type": "string",
-        "style": "default"
+        "layer": "susceptibilidad_de_movimeinto_de_masas",
+        "layerType": "geometry",
+        "variableType": "string",
+        "style": "movimiento_masa"
       },
       "curva_nivel_l": {
         "label": "Curvas de nivel",
-        "variable": "curvas_de_nivel",
-        "type": "string",
-        "style": "default"
+        "layer": "curvas_de_nivel",
+        "layerType": "curve",
+        "variable": "crv",
+        "variableType": "string",
+        "style": "curva_nivel_style"
       },
       "via_l": {
-        "label": "via_l",
-        "variable": "via_l",
-        "type": "string",
-        "style": "default"
+        "label": "Vialidad escala 250K",
+        "layer": "via_l",
+        "layerType": "curve",
+        "variableType": "string",
+        "style": "red_vias"
       },
       "vias": {
-        "label": "vias",
-        "variable": "vias",
-        "type": "string",
-        "style": "default"
+        "label": "Vialidad escala 1000K",
+        "layer": "vias",
+        "layerType": "curve",
+        "variableType": "string",
+        "style": "red_vias"
       },
       "rio_torrente": {
         "label": "rio_torrente",
-        "variable": "rio_torrente",
-        "type": "string",
+        "layer": "rio_torrente",
+        "layerType": "geometry",
+        "variableType": "string",
         "style": "default"
       },
       "rio_l": {
         "label": "rio_l",
-        "variable": "rio_l",
-        "type": "string",
+        "layer": "rio_l",
+        "layerType": "geometry",
+        "variableType": "string",
         "style": "default"
       },
       "mina_p": {
         "label": "Concesiones Mineras",
-        "variable": "concesiones_mineras",
-        "type": "string",
+        "layer": "concesiones_mineras",
+        "layerType": "point",
+        "variable": "fcode",
+        "variableType": "string",
         "style": "default"
       },
       "AL_CENTRO_EDUCATIVO": {
         "label": "Centros Educativos",
-        "variable": "centros_educativos",
-        "type": "string",
+        "layer": "centros_educativos",
+        "layerType": "point",
+        "variable": "nombre",
+        "variableType": "string",
         "style": "default"
       },
       "AL_CENTRO_SALUD": {
         "label": "Centros de Salud",
-        "variable": "centros_de_salud",
-        "type": "string",
+        "layer": "centros_de_salud",
+        "layerType": "point",
+        "variable": "nombre",
+        "variableType": "string",
         "style": "default"
       },
       "poblado_p": {
         "label": "Asentamientos poblacionales",
-        "variable": "asentamientos_poblacionales",
-        "type": "string",
+        "layer": "asentamientos_poblacionales",
+        "layerType": "point",
+        "variable": "nam",
+        "variableType": "string",
         "style": "default"
       },
       "aeropuerto_p": {
         "label": "Aeropuertos",
-        "variable": "aeropuertos",
-        "type": "string",
+        "layer": "aeropuertos",
+        "layerType": "point",
+        "variable": "nam",
+        "variableType": "string",
         "style": "default"
       }
     }
