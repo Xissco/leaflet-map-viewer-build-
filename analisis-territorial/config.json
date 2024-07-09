@@ -180,7 +180,7 @@
         "layerType": "point",
         "variable": "fcode",
         "variableType": "string",
-        "style": "default"
+        "style": "mine_style"
       },
       "AL_CENTRO_EDUCATIVO": {
         "label": "Centros Educativos",
@@ -188,7 +188,7 @@
         "layerType": "point",
         "variable": "nombre",
         "variableType": "string",
-        "style": "default"
+        "style": "school_style"
       },
       "AL_CENTRO_SALUD": {
         "label": "Centros de Salud",
@@ -196,7 +196,7 @@
         "layerType": "point",
         "variable": "nombre",
         "variableType": "string",
-        "style": "default"
+        "style": "hospital_style"
       },
       "poblado_p": {
         "label": "Asentamientos poblacionales",
@@ -204,7 +204,7 @@
         "layerType": "point",
         "variable": "nam",
         "variableType": "string",
-        "style": "default"
+        "style": "people_style"
       },
       "aeropuerto_p": {
         "label": "Aeropuertos",
@@ -212,7 +212,7 @@
         "layerType": "point",
         "variable": "nam",
         "variableType": "string",
-        "style": "default"
+        "style": "airport_style"
       }
     }
   }
