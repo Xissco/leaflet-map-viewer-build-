@@ -143,7 +143,6 @@
         "label": "Curvas de nivel",
         "layer": "curvas_de_nivel",
         "layerType": "curve",
-        "variable": "crv",
         "variableType": "string",
         "style": "curva_nivel_style"
       },
