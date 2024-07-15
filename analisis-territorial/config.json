@@ -13,7 +13,9 @@
         "layerType": "geometry",
         "variable": "nombre",
         "variableType": "string",
-        "style": "snap_style"
+        "legend": true,
+        "style": "snap_style",
+        "nameStyle": "nombre_style"
       },
       "BVP_2018-06-15": {
         "label": "Bosques y Vegetación Protectora",
@@ -21,7 +23,9 @@
         "layerType": "geometry",
         "variable": "nombre",
         "variableType": "string",
-        "style": "bvp_style"
+        "legend": false,
+        "style": "bvp_style",
+        "nameStyle": "nombre_style"
       },
       "v_hc005": {
         "label": "Programa Socio Bosque",
@@ -29,42 +33,53 @@
         "layerType": "geometry",
         "variable": "nam",
         "variableType": "string",
-        "style": "socio_bosque_style"
+        "legend": true,
+        "style": "socio_bosque_style",
+        "nameStyle": "nam_style"
       },
       "COBERTURA_VEGETAL_1990": {
         "label": "Uso y Cobertura del Suelo 1990",
         "layer": "cobertura_vegetal_1990",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "cobertura_1990_style"
+        "legend": true,
+        "style": "cobertura_1990_style",
+        "nameStyle": "leyenda_style"
       },
       "cobertura_vegetal_2000": {
         "label": "Uso y Cobertura del Suelo 2000",
         "layer": "cobertura_vegetal_2000",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "cobertura_2000_style"
+        "legend": true,
+        "style": "cobertura_2000_style",
+        "nameStyle": "nivel_1_style"
       },
       "cobertura_vegetal_2008": {
         "label": "Uso y Cobertura del Suelo 2008",
         "layer": "cobertura_vegetal_2008",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "cobertura_2008_style"
+        "legend": true,
+        "style": "cobertura_2008_style",
+        "nameStyle": "nivel_1_style"
       },
       "coberturas": {
         "label": "Uso y Cobertura del Suelo 2015",
         "layer": "coberturas",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "default"
+        "style": "default",
+        "nameStyle": "cobertura_style"
       },
       "1_tc_00": {
         "label": "Pisos Climaticos",
         "layer": "pisos_climaticos",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "piso_climatico_style"
+        "legend": true,
+        "style": "piso_climatico_style",
+        "nameStyle": "tipo_cl_style"
       },
       "ORGANIZACION TERRITORIAL PARROQUIAL": {
         "label": "Organización territorial Parroquial",
@@ -72,28 +87,44 @@
         "layerType": "geometry",
         "variable": "dpa_despar",
         "variableType": "string",
-        "style": "organizacion_parroquial_style"
+        "legend": false,
+        "style": "organizacion_parroquial_style",
+        "nameStyle": "despar_style"
       },
-      "1_geomorfologia_nuevo": {
+      "1_geomorfologia_nuevo_tipos_suelo": {
         "label": "Tipos de suelo",
         "layer": "tipos_de_suelo",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "tipos_suelo_style"
+        "legend": false,
+        "style": "tipos_suelo_style",
+        "nameStyle": "litologia_style"
+      },
+      "1_geomorfologia": {
+        "label": "Geomorfología del Suelo",
+        "layer": "tipos_de_suelo",
+        "layerType": "geometry",
+        "variableType": "string",
+        "legend": false,
+        "style": "tipos_suelo_style",
+        "nameStyle": "genesis_style"
       },
       "Geopedologiasigtierra": {
         "label": "Geopodología del suelo",
         "layer": "geopodología_del_suelo",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "geopodologia_style"
+        "legend": false,
+        "style": "geopodologia_style",
+        "nameStyle": "cla_desc_style"
       },
       "Sectores_censales_info": {
         "label": "Sectores Censales",
         "layer": "sectores_censales",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "default"
+        "style": "default",
+        "nameStyle": "nombre_style"
       },
       "1_PELIGRO VOLCANICO_2011": {
         "label": "Peligros volcánicos",
@@ -101,28 +132,36 @@
         "layerType": "geometry",
         "variable": "nombre",
         "variableType": "string",
-        "style": "volcanicos_style"
+        "legend": true,
+        "style": "volcanicos_style",
+        "nameStyle": "nombre_style"
       },
       "1_ECOSISTEMAS_DEL_ECUADOR_CONTINENTAL": {
         "label": "Ecosistemas",
         "layer": "ecosistemas",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "ecosistemas_style"
+        "legend": false,
+        "style": "ecosistemas_style",
+        "nameStyle": "eco_style"
       },
       "1_PISOS_BIOCLIMATICOS": {
         "label": "Pisos Bioclimáticos",
         "layer": "pisos_bioclimáticos",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "pisos_bio_style"
+        "legend": true,
+        "style": "pisos_bio_style",
+        "nameStyle": "piso_biocl_style"
       },
       "1_Inundaciones": {
         "label": "Susceptibilidad a Inundaciones",
         "layer": "susceptibilidad_a_inundaciones",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "inundaciones_style"
+        "legend": true,
+        "style": "inundaciones_style",
+        "nameStyle": "inundabili_style"
       },
       "1_zona_urbana_a": {
         "label": "Zonas Urbanas",
@@ -130,20 +169,25 @@
         "layerType": "geometry",
         "variable": "nam",
         "variableType": "string",
-        "style": "zonas_urbanas_style"
+        "legend": false,
+        "style": "zonas_urbanas_style",
+        "nameStyle": "nam_style"
       },
       "1_DB_MOVIMIENTO_MASA": {
-        "label": "Susceptibilidad de movimeinto de masas",
+        "label": "Susceptibilidad de movimiento de masas",
         "layer": "susceptibilidad_de_movimeinto_de_masas",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "movimiento_masa"
+        "legend": true,
+        "style": "movimiento_masa",
+        "nameStyle": "decripcio_style"
       },
       "curva_nivel_l": {
         "label": "Curvas de nivel",
         "layer": "curvas_de_nivel",
         "layerType": "curve",
         "variableType": "string",
+        "legend": false,
         "style": "curva_nivel_style"
       },
       "via_l": {
@@ -151,6 +195,7 @@
         "layer": "via_l",
         "layerType": "curve",
         "variableType": "string",
+        "legend": false,
         "style": "red_vias"
       },
       "vias": {
@@ -158,6 +203,7 @@
         "layer": "vias",
         "layerType": "curve",
         "variableType": "string",
+        "legend": false,
         "style": "red_vias"
       },
       "rio_torrente": {
@@ -165,6 +211,7 @@
         "layer": "rio_torrente",
         "layerType": "geometry",
         "variableType": "string",
+        "legend": false,
         "style": "default"
       },
       "rio_l": {
@@ -172,6 +219,7 @@
         "layer": "rio_l",
         "layerType": "geometry",
         "variableType": "string",
+        "legend": false,
         "style": "default"
       },
       "mina_p": {
@@ -180,6 +228,7 @@
         "layerType": "point",
         "variable": "fcode",
         "variableType": "string",
+        "legend": false,
         "style": "mine_style"
       },
       "AL_CENTRO_EDUCATIVO": {
@@ -188,6 +237,7 @@
         "layerType": "point",
         "variable": "nombre",
         "variableType": "string",
+        "legend": false,
         "style": "school_style"
       },
       "AL_CENTRO_SALUD": {
@@ -196,6 +246,7 @@
         "layerType": "point",
         "variable": "nombre",
         "variableType": "string",
+        "legend": false,
         "style": "hospital_style"
       },
       "poblado_p": {
@@ -204,6 +255,7 @@
         "layerType": "point",
         "variable": "nam",
         "variableType": "string",
+        "legend": false,
         "style": "people_style"
       },
       "aeropuerto_p": {
@@ -212,6 +264,7 @@
         "layerType": "point",
         "variable": "nam",
         "variableType": "string",
+        "legend": false,
         "style": "airport_style"
       }
     }
