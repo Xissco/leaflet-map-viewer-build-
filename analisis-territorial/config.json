@@ -23,7 +23,7 @@
         "layerType": "geometry",
         "variable": "nombre",
         "variableType": "string",
-        "legend": false,
+        "legend": true,
         "style": "bvp_style",
         "nameStyle": "nombre_style"
       },
@@ -87,7 +87,7 @@
         "layerType": "geometry",
         "variable": "dpa_despar",
         "variableType": "string",
-        "legend": false,
+        "legend": true,
         "style": "organizacion_parroquial_style",
         "nameStyle": "despar_style"
       },
@@ -96,7 +96,7 @@
         "layer": "tipos_de_suelo",
         "layerType": "geometry",
         "variableType": "string",
-        "legend": false,
+        "legend": true,
         "style": "tipos_suelo_style",
         "nameStyle": "litologia_style"
       },
@@ -105,16 +105,16 @@
         "layer": "tipos_de_suelo",
         "layerType": "geometry",
         "variableType": "string",
-        "legend": false,
-        "style": "tipos_suelo_style",
-        "nameStyle": "genesis_style"
+        "legend": true,
+        "style": "genesis_style",
+        "nameStyle": "genesis_text_style"
       },
       "Geopedologiasigtierra": {
         "label": "Geopodología del suelo",
         "layer": "geopodología_del_suelo",
         "layerType": "geometry",
         "variableType": "string",
-        "legend": false,
+        "legend": true,
         "style": "geopodologia_style",
         "nameStyle": "cla_desc_style"
       },
@@ -141,7 +141,7 @@
         "layer": "ecosistemas",
         "layerType": "geometry",
         "variableType": "string",
-        "legend": false,
+        "legend": true,
         "style": "ecosistemas_style",
         "nameStyle": "eco_style"
       },
@@ -207,20 +207,31 @@
         "style": "red_vias"
       },
       "rio_torrente": {
-        "label": "rio_torrente",
+        "label": "Rios escala 1000k",
         "layer": "rio_torrente",
-        "layerType": "geometry",
+        "layerType": "curve",
         "variableType": "string",
         "legend": false,
-        "style": "default"
+        "style": "rio_style",
+        "nameStyle": "nombre_style"
       },
       "rio_l": {
-        "label": "rio_l",
+        "label": "Rios cuerpo de agua escala 250k",
         "layer": "rio_l",
-        "layerType": "geometry",
+        "layerType": "curve",
         "variableType": "string",
         "legend": false,
-        "style": "default"
+        "style": "rio_style",
+        "nameStyle": "nam_style"
+      },
+      "rio_a": {
+        "label": "Rios escala 250k",
+        "layer": "rio_a",
+        "layerType": "curve",
+        "variableType": "string",
+        "legend": false,
+        "style": "rio_style",
+        "nameStyle": "nam_style"
       },
       "mina_p": {
         "label": "Concesiones Mineras",
