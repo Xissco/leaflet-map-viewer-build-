@@ -69,8 +69,9 @@
         "layer": "coberturas",
         "layerType": "geometry",
         "variableType": "string",
-        "style": "default",
-        "nameStyle": "cobertura_style"
+        "legend": true,
+        "style": "cobertura_style",
+        "nameStyle": "cobertura_text_style"
       },
       "1_tc_00": {
         "label": "Pisos Climaticos",
@@ -217,7 +218,7 @@
       },
       "rio_l": {
         "label": "Rios cuerpo de agua escala 250k",
-        "layer": "rio_l",
+        "layer": "rio_a",
         "layerType": "curve",
         "variableType": "string",
         "legend": false,
@@ -226,7 +227,7 @@
       },
       "rio_a": {
         "label": "Rios escala 250k",
-        "layer": "rio_a",
+        "layer": "rio_l",
         "layerType": "curve",
         "variableType": "string",
         "legend": false,
@@ -276,7 +277,8 @@
         "variable": "nam",
         "variableType": "string",
         "legend": false,
-        "style": "airport_style"
+        "style": "airport_style",
+        "nameStyle": "nam_style"
       }
     }
   }
