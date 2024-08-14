@@ -234,8 +234,9 @@
         "variable": "dpa_descan",
         "location": "limites_provinciales",
         "locationStyle": "Mapa1_Provincias",
-        "legend": false,
-        "style": "zonas_urbanas_style"
+        "legend": true,
+        "style": "txt_style",
+        "nameStyle": "nam_style"
       },
       "1_DB_MOVIMIENTO_MASA": {
         "label": "Susceptibilidad de movimiento de masas",
